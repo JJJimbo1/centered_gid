@@ -1,0 +1,14 @@
+[package]
+name = "centered_grid"
+version = "0.0.1"
+authors = ["JJJimbo1"]
+edition = "2021"
+
+[dependencies]
+serde = { version = "1.0.163", optional = true }
+
+[lib]
+name = "centered_grid"
+
+[features]
+index_usize = []
